@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Bank Transfer</title>
+<link rel="stylesheet" type="text/css" href="css/styles.css"> <!-- Link to external CSS -->
+<link rel="stylesheet" href="trans.css"> <!-- FontAwesome for icons -->
+</head>
+<body>
+<div class="container">
+    <h2>Bank Transfer</h2>
+    <form action="trans" method="post">
+        <div class="form-group">
+            <label for="sen"><i class="fas fa-user"></i> Sender Account Number:</label>
+            <input type="text" id="sen" name="sen" placeholder="Enter Sender Account Number" required>
+        </div>
+        <div class="form-group">
+            <label for="res"><i class="fas fa-user"></i> Receiver Account Number:</label>
+            <input type="text" id="res" name="res" placeholder="Enter Receiver Account Number" required>
+        </div>
+        <div class="form-group">
+            <label for="amt"><i class="fas fa-money-bill-wave"></i> Enter Amount:</label>
+            <input type="text" id="amt" name="amt" placeholder="Enter Amount" required>
+        </div>
+        <div class="form-actions">
+            <input type="submit" value="Submit" class="btn-submit">
+            <button type="button" class="btn-home" onclick="goToHome()"><i class="fas fa-home"></i> Home</button>
+        </div>
+    </form>
+</div>
+
+<script>
+    function goToHome() {
+        window.location.href = "task.html"; // Redirect to home page
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Prasad Bank - Your Trusted Financial Partner</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?auto=format&fit=crop&w=1920&q=80');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            font-family: Arial, sans-serif;
+            color: white;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            text-align: center;
+            margin-bottom: 30px;
+            border-bottom: 2px solid #FFD700;
+            padding-bottom: 10px;
+        }
+
+        .info-section {
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 30px;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+
+        .features {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+            margin-top: 30px;
+        }
+
+        .feature {
+            padding: 20px;
+            background-color: rgba(255, 215, 0, 0.1);
+            border-left: 3px solid #FFD700;
+        }
+
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            margin-top: 30px;
+        }
+
+        .service-card {
+            background-color: rgba(0, 0, 0, 0.8);
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        .rates-table {
+            width: 100%;
+            margin-top: 20px;
+            border-collapse: collapse;
+        }
+
+        .rates-table th, .rates-table td {
+            padding: 12px;
+            border: 1px solid rgba(255, 215, 0, 0.3);
+            text-align: left;
+        }
+
+        .rates-table th {
+            background-color: rgba(255, 215, 0, 0.2);
+        }
+
+        .contact-info {
+            background-color: rgba(0, 0, 0, 0.8);
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 30px;
+        }
+
+        .achievements {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 30px;
+            text-align: center;
+        }
+
+        .achievement {
+            background-color: rgba(255, 215, 0, 0.1);
+            padding: 20px;
+            border-radius: 8px;
+        }
+
+        .highlight {
+            color: #FFD700;
+            font-weight: bold;
+        }
+
+        /* Home Button Styles */
+        .home-button {
+            display: flex;
+            justify-content: center;
+            margin: 30px 0;
+        }
+
+        .home-button button {
+            padding: 15px 40px;
+            background: linear-gradient(45deg, #1e3c72, #2a5298);
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .home-button button:hover {
+            transform: translateY(-3px) scale(1.05);
+            box-shadow: 0 6px 20px rgba(255, 215, 0, 0.3);
+        }
+
+        .home-button a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Previous content remains the same until the end -->
+        <h1>Welcome to Prasad Bank</h1>
+        
+        <div class="info-section">
+            <h2>Your Trusted Financial Partner </h2>
+            <p>With over 25 years of excellence in banking, we've been serving millions of customers with innovative financial solutions and unwavering commitment to security.</p>
+            
+            <div class="features">
+                <div class="feature">
+                    <h3>Personal Banking</h3>
+                    <p>Customized savings accounts, fixed deposits, and recurring deposits with competitive interest rates. Enjoy seamless banking with our mobile app and internet banking services.</p>
+                </div>
+                <div class="feature">
+                    <h3>Digital Banking</h3>
+                    <p>Experience next-generation banking with our secure digital platform. Features include UPI payments, instant fund transfers, bill payments, and real-time transaction alerts.</p>
+                </div>
+                <div class="feature">
+                    <h3>Business Solutions</h3>
+                    <p>Comprehensive corporate banking including current accounts, trade finance, merchant services, and business loans. Dedicated relationship managers for personalized service.</p>
+                </div>
+                <div class="feature">
+                    <h3>Loan Services</h3>
+                    <p>Wide range of loans including home, vehicle, education, and business loans. Quick approval process, minimal documentation, and flexible repayment options.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="info-section">
+            <h2>Current Interest Rates</h2>
+            <table class="rates-table">
+                <tr>
+                    <th>Product</th>
+                    <th>Interest Rate (p.a.)</th>
+                    <th>Terms</th>
+                </tr>
+                <tr>
+                    <td>Savings Account</td>
+                    <td>4.00%</td>
+                    <td>Calculated on daily balance</td>
+                </tr>
+                <tr>
+                    <td>Fixed Deposit</td>
+                    <td>6.75%</td>
+                    <td>1-5 years</td>
+                </tr>
+                <tr>
+                    <td>Home Loan</td>
+                    <td>8.50%</td>
+                    <td>Up to 30 years</td>
+                </tr>
+                <tr>
+                    <td>Personal Loan</td>
+                    <td>10.75%</td>
+                    <td>Up to 5 years</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="info-section">
+            <h2>Why Choose Prasad Bank?</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <h3>24/7 Banking</h3>
+                    <p>Access your accounts anytime, anywhere through our secure digital platforms</p>
+                </div>
+                <div class="service-card">
+                    <h3>500+ Branches</h3>
+                    <p>Wide network of branches and ATMs across the country</p>
+                </div>
+                <div class="service-card">
+                    <h3>Secure Banking</h3>
+                    <p>Advanced security measures including 256-bit encryption and biometric authentication</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="info-section">
+            <h2>Our Achievements</h2>
+            <div class="achievements">
+                <div class="achievement">
+                    <h3>5 Million+</h3>
+                    <p>Satisfied Customers</p>
+                </div>
+                <div class="achievement">
+                    <h3>AAA</h3>
+                    <p>Credit Rating</p>
+                </div>
+                <div class="achievement">
+                    <h3>20+ Years</h3>
+                    <p>of Excellence</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="contact-info">
+            <h2>Contact Us</h2>
+            <p>24/7 Customer Care: <span class="highlight">1800-123-4567</span></p>
+            <p>Email: <span class="highlight">support@prasadbank.com</span></p>
+            <p>Head Office: Financial District, Hyderabad - 500032</p>
+            <p>SWIFT Code: PRSBINBB</p>
+            <p>For emergency card blocking: <span class="highlight">1800-123-4568</span></p>
+        </div>
+    </div>
+    <div class="home-button">
+        <button><a href="task.html">Home</a></button>
+    </div>
+</body>
+</html>

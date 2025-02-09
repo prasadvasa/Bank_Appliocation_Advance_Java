@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank Deposit</title>
+    <link rel="stylesheet" href="deposite.css">
+</head>
+<body>
+    <div class="container">
+        <form action="dep" method="post" class="deposit-form">
+            <h2>Money Deposit</h2>
+            <div class="form-group">
+                <label for="account-number">Account Number:</label>
+                <input type="text" id="account-number" name="num" placeholder="Enter Account Number" required>
+            </div>
+            <div class="form-group">
+                <label for="deposit-amount">Enter Amount:</label>
+                <input type="number" id="deposit-amount" name="amt" placeholder="Enter Amount To Deposit" min="0" step="0.01" required>
+            </div>
+            <div class="form-actions">
+                <input type="submit" value="Deposit" class="btn btn-primary">
+                <a href="task.html" class="btn btn-secondary">Home</a>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

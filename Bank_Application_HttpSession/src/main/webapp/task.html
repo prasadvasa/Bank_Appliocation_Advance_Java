@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Banking Services</title>
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://images.unsplash.com/photo-1501167786227-4cba60f6d58f?auto=format&fit=crop&w=1920&q=80');
+            background-size: cover;
+            background-position: center;
+        }
+
+        .nav-container {
+            display: flex;
+            gap: 20px;
+            padding: 30px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 15px;
+            backdrop-filter: blur(5px);
+        }
+
+        .nav-button {
+            padding: 15px 30px;
+            border: none;
+            border-radius: 8px;
+            background: linear-gradient(145deg, #1e3c72, #2a5298);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .nav-button:hover {
+            transform: scale(1.1);
+            box-shadow: 0 0 20px rgba(255, 215, 0, 0.5);
+        }
+
+        .nav-button a {
+            color: white;
+            text-decoration: none;
+            font-family: Arial, sans-serif;
+            font-size: 16px;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+    </style>
+</head>
+<body>
+    <div class="nav-container">
+        <button class="nav-button"><a href="balance.jsp">Balance</a></button>
+        <button class="nav-button"><a href="deposit.html">Deposit</a></button>
+        <button class="nav-button"><a href="withdraw.html">Withdraw</a></button>
+        <button class="nav-button"><a href="transsion.html">Transfer Money</a></button>
+        <button class="nav-button"><a href="history.html">Transition History</a></button>
+        <button class="nav-button"><a href="Close.jsp">Close Account</a></button>
+        <button class="nav-button"><a href="About.html">About</a></button>
+    </div>
+</body>
+</html>
